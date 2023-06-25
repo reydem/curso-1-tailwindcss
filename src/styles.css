@@ -45,4 +45,27 @@
 
 }
 
-@layer components {}
+@layer components {
+        /*ESTILOS MENU CABECERA*/
+
+
+        .menu-item{
+            @apply 
+                mr-5 
+                ml-5 
+                tracking-wider 
+                flex-none
+                xs:flex-1
+            ;
+        }
+        .menu-item-a{
+            @apply 
+                block 
+                transition 
+                duration-200 
+                hover:text-azul-claro 
+                transform 
+                hover:scale-125
+            ;
+        }
+}
