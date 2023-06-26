@@ -19,11 +19,13 @@
     <div class="container mx-auto flex flex-row w-10/12">
       <div id="logo" class="flex-1">
         <div class="
+        group
         w-64
         pt-0.5
-        pd-0.5
+        pb-0.5
         mt-4
         ml-6
+
         text-center
         tracking-wider
         cursor-pointer
@@ -34,29 +36,32 @@
         bg-azul-claro
         hover:text-black
         hover:bg-gray-200
+    ">
+        <span class="
+            symbol
+            block
+            float-left
+            text-3xl
+            mt-1
+            ml-11
+            animate-spin-low
+            group-hover:animate-none
+            group-hover:animate-from-bellow
+        ">S</span>
 
+        <h3 class="
+            block
+            float-right
+            text-4xl
+            mt-1.5
+            mr-16
+            transition
+            duration-100
+            group-hover:animate-from-right
         ">
-          <span class="
-        symbol
-        block
-        float-left
-        text-3xl
-        mt-1
-        ml-11       
-        ">
-            S
-          </span>
-          <h3 class="
-        block
-        float-right
-        text-4xl
-        mt-1.5
-        mr-16
-        transition
-        duration-100
-        
-        ">TAILWINDCSS</h3>
-        </div>
+            TAILWIND
+        </h3>
+    </div>
       </div>
       <nav class="flex-1">
         <ul class="
@@ -75,17 +80,16 @@
           tracking-wider 
           flex-none
           xs:flex-1">
-          <a href="#" class="
+            <a href="#" class="
           block 
           transition 
           duration-200 
           hover:text-azul-claro 
           transform 
-          hover:scale-125"
-          >
-          INICIO
-        </a>
-        </li>
+          hover:scale-125">
+              INICIO
+            </a>
+          </li>
           <li class="
           mr-5 
           ml-5 
@@ -98,8 +102,7 @@
             duration-200 
             hover:text-azul-claro 
             transform 
-            hover:scale-125"
-            >
+            hover:scale-125">
               BLOG</a>
           </li>
           <li class="
@@ -114,12 +117,10 @@
             duration-200 
             hover:text-azul-claro 
             transform 
-            hover:scale-125"
-            >
+            hover:scale-125">
               FORMACIÓN</a>
-            </li>
-          <li
-          ><a href="#">CONTACTO</a></li>
+          </li>
+          <li><a href="#">CONTACTO</a></li>
         </ul>
       </nav>
 
