@@ -85,6 +85,7 @@
     /*ESTILOS MENU TARJETAS*/
     .card{
         @apply
+            group
             flex-1
             h-80
             border-2
