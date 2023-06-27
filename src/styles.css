@@ -85,7 +85,6 @@
     /*ESTILOS MENU TARJETAS*/
     .card{
         @apply
-            group
             flex-1
             h-80
             border-2
@@ -101,7 +100,6 @@
             transition
             duration-300
             hover:bg-black
-
             xs:h-40
             xs:m-2
             md:h-40
