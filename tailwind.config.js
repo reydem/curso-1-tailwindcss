@@ -23,6 +23,7 @@ module.exports = {
         'spin-low': 'spin 2s linear infinite',
         'from-bellow': 'fromBellow 500ms linear',
         'from-right': 'fromRight 300ms linear',
+        'bg-banner': 'backBanner 10s linear',
 
       },
       keyframes: {
@@ -36,6 +37,10 @@ module.exports = {
           '0%': { transform: 'translateX(200%)' },
           '100%': { transform: 'translateX(0%)' }
         },
+        backBanner: {
+          '0%': { 'background-position': '0px 0px'},
+          '100%': { 'background-position': '-200px -200px'}
+      },
       }
     }
   },
