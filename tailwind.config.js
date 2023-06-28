@@ -25,6 +25,7 @@ module.exports = {
         'from-right': 'fromRight 300ms linear',
         'bg-banner': 'backBanner 10s linear',
         'text-banner': 'showBannerText 10s linear',
+        'show-card-icon': 'showCardIcon 300ms linear',
 
       },
       keyframes: {
@@ -51,17 +52,28 @@ module.exports = {
             transform: "translateX(600%) scale(5,5)",
             opacity: 1
           },
+          
           '75%': {
             transform: 'translateX(-600%) scale(5,5)',
             'text-shadow': 'none',
             color: 'transparent',
             opacity: 0
           },
+
           '100%': {
             transform: 'translateX(0%) scale(1,1)',
             'text-shadow': '2px 2px 1px black',
             color: 'white',
             opacity: 1
+          }
+        },
+
+        showCardIcon: {
+          'from': {
+            transform: "translateY(-200%)"
+          },
+          'to': {
+            transform: "translateY(0%)"
           }
         },
       }
