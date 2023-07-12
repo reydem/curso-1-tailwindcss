@@ -147,6 +147,7 @@
             xs:h-6
             md:text-base
             md:h-6
+
             lg:text-lg
             lg:h-12
         ;
@@ -161,9 +162,13 @@
             transition
             duration-300
             xs:hidden
+
             md:hidden
+            
             lg:block
+
             lg:text-sm
+
             lg:mt-1.5
             xl:text-base
             xl:mt-1
